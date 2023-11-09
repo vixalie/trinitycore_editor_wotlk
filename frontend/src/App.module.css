@@ -1,0 +1,20 @@
+.app_layout {
+  @util size(100vw 100vh);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.root_navigation {
+  background-color: var(--mantine-color-blue-gray-8);
+  @util padding(var(--mantine-spacing-md) 0);
+  width: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--mantine-spacing-sm);
+}
+.content_section {
+  flex-grow: 1;
+}
